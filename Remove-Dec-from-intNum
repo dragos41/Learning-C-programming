@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{float data,dec;
+int n;
+
+printf("Number: ");
+scanf("%f",&data);
+n=(int)data;
+printf("Int number of the data: %d\n",n);
+dec=data-n;
+printf("Decimal of Data: %.2f",dec);
+
+
+
+return 0;
+}
