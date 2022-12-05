@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{int number,units,hundreds,tens;
+printf("Enter 3 digits number: ");
+scanf("%d",&number);
+    
+units=number%10;
+hundreds=number/100;
+tens=(number/10)%10;
+printf("Reversed number of %d is : %d%d%d\n",number, units, tens, hundreds);
+    return 0;
+}
