@@ -1,0 +1,15 @@
+
+
+#include <stdio.h>
+
+int main()
+{int score= 54312,sum=0;
+    
+while(score)
+{
+    sum=sum+(score%10);
+    score /= 10;
+}
+printf("Sum of digits : %d",sum);
+    return 0;
+}
