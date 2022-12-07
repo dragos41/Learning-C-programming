@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{int number1,number2;
+printf("Introduce number1: ");
+scanf("%d",&number1);
+printf("Introduce number2: ");
+scanf("%d",&number2);
+if(number1>number2)
+    printf("number1 is the maximum between number1 and number2");
+else printf("number2 is the maximum between number1 and number2");
+
+return 0;
+}
