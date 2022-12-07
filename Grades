@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{float grades;
+printf("Introduce a grade: ");
+scanf("%f",&grades);
+if(grades >= 60)
+    printf("Congratulations\n");
+else printf("Failed. Try Again. ");
+
+    return 0;
+}
